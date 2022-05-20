@@ -7,7 +7,6 @@
 #include "options.h"
 
 extern Si5351 clockgen;
-extern bool i2c_found;
 
 int32_t readClockOffset();
 int32_t initializeClockOffset();
